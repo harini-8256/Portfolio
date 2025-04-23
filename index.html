@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <a href="#" class="logo">Harini Dharanikota</a> 
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="home-content">
+            <h3>Hello, I'm</h3>
+            <h1>Harini Dharanikota</h1> 
+            <h2>Full Stack Web Developer</h2> 
+            <p>I create beautiful, functional websites and web applications with clean, efficient code.</p> <!-- UPDATE YOUR INTRO -->
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/harini-dharanikota-428a0b259/"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/harini-8j256"><i class="fab fa-github"></i></a> 
+                <a href="#"><i class="fab fa-instagram"></i></a> 
+                </div>
+                <div class="download-wrapper">
+                    <a href="HariniDharanikota_2026.pdf" download class="btn download-cv">
+                        Download CV <i class="fas fa-download"></i>
+                    </a>
+                </div>
+        </div>
+       
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="heading">About <span>Me</span></h2>
+        <div class="about-content">
+            <div class="about-img">
+                <div class="circle-img">
+                    <img src="hariniimage.jpg" alt="Harini"> 
+                </div>
+            </div>
+            <div class="about-text">
+                <h3>Full Stack Developer</h3> 
+                <p>I specialize in creating responsive websites and web applications using modern technologies. With a strong foundation in both front-end and back-end development, I deliver complete solutions that are both beautiful and functional.</p> <!-- UPDATE YOUR BIO -->
+                <div class="info-box">
+                    <div class="info-item">
+                        <span>Name:</span> Harini Dharanikota
+                    </div>
+                    <div class="info-item">
+                    <span>Email:</span><a href="harinidharanikota156@gmail.com ">harinidharanikota156@gmail.com</a>
+                    </div>
+                    <div class="info-item">
+                        <span>Experience:</span> Fresher
+                    </div>
+                    <div class="info-item">
+                        <span>Availability:</span> Freelance/Full-time 
+                    </div>
+                </div>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <!-- Services Section -->
+<section id="services" class="services">
+    <h2 class="heading">My <span>Services</span></h2>
+    <div class="services-container">
+        <div class="service-box">
+            <i class="fas fa-laptop-code"></i>
+            <h3>Frontend Development</h3>
+            <p>Building responsive, interactive user interfaces using React, Vue.js, HTML5, CSS3, and JavaScript.</p>
+        </div>
+        <div class="service-box">
+            <i class="fas fa-server"></i>
+            <h3>Backend Development</h3>
+            <p>Developing robust server-side applications with Node.js, Express, Javascript,EJS,Restful API and database management.</p>
+        </div>
+        <div class="service-box">
+            <i class="fas fa-mobile-alt"></i>
+            <h3>Full Stack Solutions</h3>
+            <p>Complete web application development from frontend to backend with seamless integration.</p>
+        </div>
+    </div>
+</section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <h2 class="heading">My <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="spotify.png" alt="Project 1"> <!-- ADD YOUR PROJECT IMAGE -->
+                <div class="portfolio-layer">
+                    <h4>SpotifyClone</h4> <!-- PROJECT TITLE -->
+                    <p>a responsive Spotify-like interface with music player layout, playlists, and cards using HTML, CSS, and
+                        Bootstrap</p> <!-- PROJECT DESCRIPTION -->
+                    <a href="https://github.com/harini-8256/SpotifyClone"><i class="fas fa-external-link-alt"></i></a> <!-- PROJECT LINK -->
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="todo.png" alt="Project 2"> <!-- ADD PROJECT IMAGE -->
+                <div class="portfolio-layer">
+                    <h4>Task Management App</h4>
+                    <p>Productivity application with real-time updates</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="travel.jpeg" alt="Project 3"> <!-- ADD PROJECT IMAGE -->
+                <div class="portfolio-layer">
+                    <h4>Social Media Dashboard</h4>
+                    <p>Analytics platform for social media metrics</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="https://formspree.io/f/xldbegnw" method="POST" class="contact-form">
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
+            </div>
+            <div class="input-box">
+                <input type="text" name="subject" placeholder="Subject">
+                <input type="tel" name="phone" placeholder="Phone Number">
+            </div>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>&copy; 2025 Harini Dharanikota | All Rights Reserved</p> <!-- UPDATE YEAR AND NAME -->
+        </div>
+        <div class="footer-icon">
+            <a href="#home"><i class="fas fa-arrow-up"></i></a>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+</body>
+</html>
